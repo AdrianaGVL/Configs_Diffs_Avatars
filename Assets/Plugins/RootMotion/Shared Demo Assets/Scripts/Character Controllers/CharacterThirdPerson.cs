@@ -240,7 +240,7 @@ namespace RootMotion.Demos {
                     velocity = Vector3.Lerp(r.velocity, airMove, Time.deltaTime * airControl);
                 }				
 
-				if (onGround && Time.time > jumpEndTime)
+				if (onGround && Time.time > jumpEndTime && !r.isKinematic)
                 {
                     r.velocity = r.velocity - transform.up * stickyForce * Time.deltaTime;
                 }
