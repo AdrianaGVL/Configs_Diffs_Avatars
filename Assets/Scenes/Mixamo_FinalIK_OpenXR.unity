@@ -1243,6 +1243,20 @@ MonoBehaviour:
     pelvisTargetRight: {x: 0, y: 0, z: 0}
     pelvisPositionWeight: 0
     pelvisRotationWeight: 0
+--- !u!114 &836845523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836845498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 892e2d7cbdf980e4b9ea97a23e808d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetTip: {fileID: 1199245050}
+  avatarTip: {fileID: 1412867705}
 --- !u!1 &857005313
 GameObject:
   m_ObjectHideFlags: 0
@@ -1939,6 +1953,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 44e282e8694222d4da66cb80d19ee452, type: 3}
       insertIndex: -1
       addedObject: {fileID: 836845522}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 44e282e8694222d4da66cb80d19ee452, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 836845523}
     - targetCorrespondingSourceObject: {fileID: -6897739731549913015, guid: 44e282e8694222d4da66cb80d19ee452, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1412867707}
